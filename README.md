@@ -2,9 +2,9 @@
 
 ## Overview
 
-This repository contains a dashboard created using data from AdventureWorks. The dashboard provides insights into sales trends and distributions based on Product Categories.
+This repository contains a dashboard created using data from AdventureWorks after performing ETL using Azure on it. The dashboard provides insights into sales trends and distributions based on Product Categories.
 
-![AdventureWorks Dashboard](https://github.com/msaipraneeth2001/On-Prem-to-Azure-ETL/blob/main/Azure_AdventueWorks)
+![AdventureWorks Dashboard](https://github.com/msaipraneeth2001/On-Prem-to-Azure-ETL/blob/main/Azure_AdventueWorks.png)
 
 ## Data Source
 
@@ -14,13 +14,11 @@ The data used in this dashboard is obtained after performing ETL on below Databa
 ## Features
 
 - Visual representation of Sales Data.
-- Breakdown of salaries by experience level
+- Breakdown of sales by Product Category.
+- Customers by Country.
+- Gender Classification.
 
 ## Tools Used
 
-- Azure Cloud Platform 
-- Power BI (for dashboard creation and data modelling)
-
-## How to Use
-
-1. Clone this repository
+- Azure Cloud Platform.
+- Power BI (for dashboard creation and data modelling).
