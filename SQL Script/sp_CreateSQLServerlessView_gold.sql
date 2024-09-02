@@ -11,7 +11,7 @@
             SELECT *
             FROM
                 OPENROWSET(
-                    BULK ''https://dedatalake2024.dfs.core.windows.net/gold/SalesLT/' + @ViewName + '/'',
+                    BULK ''https://<yourdatalake>.dfs.core.windows.net/gold/SalesLT/' + @ViewName + '/'',
                     FORMAT = ''DELTA''
                 ) as [result]
         '
